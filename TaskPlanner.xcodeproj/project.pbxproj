@@ -11,6 +11,12 @@
 		23692D7B297C17B700ED9EC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23692D7A297C17B700ED9EC9 /* ContentView.swift */; };
 		23692D7D297C17B800ED9EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23692D7C297C17B800ED9EC9 /* Assets.xcassets */; };
 		23692D81297C17B800ED9EC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23692D80297C17B800ED9EC9 /* Preview Assets.xcassets */; };
+		23692D8E297C1A3300ED9EC9 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23692D8A297C1A3200ED9EC9 /* Montserrat-Medium.ttf */; };
+		23692D8F297C1A3300ED9EC9 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23692D8B297C1A3200ED9EC9 /* Montserrat-Bold.ttf */; };
+		23692D90297C1A3300ED9EC9 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23692D8C297C1A3200ED9EC9 /* Montserrat-Regular.ttf */; };
+		23692D91297C1A3300ED9EC9 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23692D8D297C1A3200ED9EC9 /* Montserrat-Light.ttf */; };
+		23692D94297C1AC900ED9EC9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23692D93297C1AC900ED9EC9 /* Home.swift */; };
+		23692D96297C1B8A00ED9EC9 /* Montserrat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23692D95297C1B8A00ED9EC9 /* Montserrat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,13 @@
 		23692D7C297C17B800ED9EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23692D7E297C17B800ED9EC9 /* TaskPlanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaskPlanner.entitlements; sourceTree = "<group>"; };
 		23692D80297C17B800ED9EC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23692D8A297C1A3200ED9EC9 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		23692D8B297C1A3200ED9EC9 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		23692D8C297C1A3200ED9EC9 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		23692D8D297C1A3200ED9EC9 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		23692D92297C1A6F00ED9EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		23692D93297C1AC900ED9EC9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		23692D95297C1B8A00ED9EC9 /* Montserrat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Montserrat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +65,10 @@
 		23692D77297C17B700ED9EC9 /* TaskPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				23692D92297C1A6F00ED9EC9 /* Info.plist */,
+				23692D89297C18EC00ED9EC9 /* Fonts */,
+				23692D88297C18EA00ED9EC9 /* Model */,
+				23692D87297C18E800ED9EC9 /* View */,
 				23692D78297C17B700ED9EC9 /* TaskPlannerApp.swift */,
 				23692D7A297C17B700ED9EC9 /* ContentView.swift */,
 				23692D7C297C17B800ED9EC9 /* Assets.xcassets */,
@@ -67,6 +84,33 @@
 				23692D80297C17B800ED9EC9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23692D87297C18E800ED9EC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23692D93297C1AC900ED9EC9 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23692D88297C18EA00ED9EC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23692D95297C1B8A00ED9EC9 /* Montserrat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23692D89297C18EC00ED9EC9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				23692D8B297C1A3200ED9EC9 /* Montserrat-Bold.ttf */,
+				23692D8D297C1A3200ED9EC9 /* Montserrat-Light.ttf */,
+				23692D8A297C1A3200ED9EC9 /* Montserrat-Medium.ttf */,
+				23692D8C297C1A3200ED9EC9 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +171,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23692D8E297C1A3300ED9EC9 /* Montserrat-Medium.ttf in Resources */,
+				23692D8F297C1A3300ED9EC9 /* Montserrat-Bold.ttf in Resources */,
+				23692D90297C1A3300ED9EC9 /* Montserrat-Regular.ttf in Resources */,
+				23692D91297C1A3300ED9EC9 /* Montserrat-Light.ttf in Resources */,
 				23692D81297C17B800ED9EC9 /* Preview Assets.xcassets in Resources */,
 				23692D7D297C17B800ED9EC9 /* Assets.xcassets in Resources */,
 			);
@@ -140,6 +188,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				23692D7B297C17B700ED9EC9 /* ContentView.swift in Sources */,
+				23692D94297C1AC900ED9EC9 /* Home.swift in Sources */,
+				23692D96297C1B8A00ED9EC9 /* Montserrat.swift in Sources */,
 				23692D79297C17B700ED9EC9 /* TaskPlannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +319,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskPlanner/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +358,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskPlanner/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
